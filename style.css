@@ -1,0 +1,77 @@
+body {
+  font-family: 'Roboto Mono', monospace;
+  background-image: linear-gradient(rgba(50, 30, 50, 0.9), rgba(80, 50, 80, 0.3));
+}
+
+h1, h2, h3 {
+  font-family: 'Coda Caption', sans-serif;
+}
+
+@media(max-width: 1200px) {
+  .container {
+    width: 900px;
+  }
+}
+
+@media(max-width: 992px) {
+  .container {
+    width: 700px;
+  }
+}
+
+@media(max-width: 768px) {
+  .container {
+    width: 500px;
+  }
+}
+
+@media(max-width: 576px) {
+  .container {
+    width: 300px;
+  }
+}
+.container {
+  position: relative;
+  text-align: center;
+  color: rgba(185, 166, 185, 0.9);
+}
+
+header {
+  position: absolute;
+  bottom: 700%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-style: bold;
+  font-size: xx-large;
+  font-family: 'Coda Caption', sans-serif;
+}
+
+.subheader {
+  position: absolute;
+  bottom: 600%;
+  left: 66%;
+  font-style: italic;
+  font-size: x-large;
+  font-family: 'Coda Caption', sans-serif;
+  transform: translate(-50%, -50%);
+}
+
+.background {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+a {
+  text-decoration: none;
+  color: rgba(92, 14, 165, 0.9);
+  font-style: italic;
+  font-size: small;
+}
+
+a:hover {
+  color:rgba(59, 33, 59, 0.9)
+}
+
+.footer {
+  margin-top: 10px
+}
